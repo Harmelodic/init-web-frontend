@@ -280,7 +280,9 @@ Vitest appears as an alternative to Jest, for faster test execution.
 
 ## My personal preferences
 
-Granted most of this either doesn't exist or "kind of" exists, or if it does exist, it might not be the industry
+... for custom frontends.
+
+Granted some of this either doesn't exist or "kind of" exists, or if it does exist, it might not be the industry
 standard:
 
 - A *real* typed language for client-side scripting (no TypeScript pre-compilation stuff).
@@ -288,6 +290,7 @@ standard:
   are rendered where, and makes modifications easy.
 - The basic "frame" be server-side rendered, with heavily data-driven components and less-critical features be
   client-side rendered (with pre-rendering for SEO).
+- A more event-based, decoupled, MVVM-like architecture for frontends, most likely backed by a single BFF.
 - Robust shift-left testing, with contract testing.
 - Runtime mocking for purely local development.
 - No monorepos. 1 webapp = 1 repo (possibly have "micro-frontends" for very large websites with multiple systems).
